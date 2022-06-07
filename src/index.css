@@ -18,6 +18,16 @@
 
 .navbar h1 {
   color: #dbd08a;
+  animation: pulse 4s;
+}
+
+@keyframes pulse {
+  0% {
+    color: #6a6a6a;
+  }
+  100% {
+    color: #dbd08a;
+  }
 }
 
 .navbar .links {
